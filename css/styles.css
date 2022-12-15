@@ -201,3 +201,24 @@ main {
   font-size: 0.875rem;
   line-height: 1.25rem;
 }
+
+.section {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.section .img-art {
+  width: 1000px;
+  margin: -10px 0px 0px -280px;
+  margin-right: 50px;
+}
+
+.info h2 {
+  color: indigo;
+}
+
+.info p {
+  width: 35rem;
+  color: gray;
+}
