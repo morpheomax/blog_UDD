@@ -145,6 +145,8 @@ main {
   border-radius: 0.5rem;
 }
 
+
+
 .image-article-area {
   flex-shrink: 0;
 }
@@ -153,6 +155,11 @@ main {
   width: 100%;
   object-fit: cover;
   height: 12rem;
+}
+
+.image-article-area a img:hover {
+  width: 110%;
+  transition:  0.2s linear 0.1s;
 }
 
 .info-article {
